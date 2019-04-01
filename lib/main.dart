@@ -10,8 +10,9 @@ class MyApp extends StatelessWidget{
     return new MaterialApp(
       home: new Scaffold(
         appBar: new AppBar(
-          backgroundColor: Colors.lightGreenAccent,
-          title: Text('CIRCLE OF LIFE'),
+          backgroundColor: Colors.lightGreen,
+          title: new Center(child: new Text('CIRCLE OF LIFE', textAlign: TextAlign.center)),
+          //title: Text('CIRCLE OF LIFE',textAlign: TextAlign.center),
         ),
       ),
     );
