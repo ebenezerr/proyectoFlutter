@@ -22,10 +22,10 @@ class _FlareDemoState extends State<FlareDemo>{
               children: <Widget>[
                 Expanded(
                     child: FlareActor(
-                      "assets//pandabb.flr",
+                      "assets/pandabb.flr",
                       alignment: Alignment.center,
                       fit: BoxFit.contain,
-                      animation: _animationName,
+                     // animation: _animationName,
                     ),
                 )
               ],
