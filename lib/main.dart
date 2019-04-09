@@ -10,7 +10,7 @@ class FlareDemo extends StatefulWidget {
 }
 
 class _FlareDemoState extends State<FlareDemo>{
-  String _animationName ="Build";
+  String _animationName ="primer";
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -22,10 +22,10 @@ class _FlareDemoState extends State<FlareDemo>{
               children: <Widget>[
                 Expanded(
                     child: FlareActor(
-                      "assets/pandabb.flr",
+                      "assets/pandita.flr",
                       alignment: Alignment.center,
                       fit: BoxFit.contain,
-                     // animation: _animationName,
+                      animation: _animationName,
                     ),
                 )
               ],
